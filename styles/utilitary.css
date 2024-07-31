@@ -1,0 +1,42 @@
+.flex {
+    display: flex;
+}
+
+.desktop-only {
+    display: none;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.px-nav {
+    margin-inline: 1rem;
+}
+
+.py-nav {
+    margin-block: 1rem;
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+
+@media (width >= 80em) {
+    .desktop-only {
+        display: initial;
+    }
+
+    .px-nav {
+        margin-inline: 2rem;
+    }
+
+    .py-nav {
+        margin-block: 1.25rem;
+    }
+
+    .gap-1 {
+        gap: 1.5rem;
+    }
+
+}

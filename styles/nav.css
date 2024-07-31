@@ -1,0 +1,24 @@
+nav {
+justify-content: space-between;
+
+& #lt-prf {
+width: 2.5rem;
+height: 2.5rem;
+aspect-ratio: 1;
+}
+
+& img, svg {
+    cursor: pointer;
+}
+
+& a:hover {
+    color: var(--brand-color);
+    text-decoration: underline;
+}
+
+    & svg path:hover {
+        stroke: var(--brand-color);
+    }
+    
+
+}
