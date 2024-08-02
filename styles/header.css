@@ -1,0 +1,66 @@
+header {
+background-color: var(--surface-color); 
+
+& > div {
+    padding: 2rem;
+    & .profile {
+        & img {
+            aspect-ratio: 1;
+            display: inline-block;
+            object-fit: cover;
+            height: 7.5rem;
+            max-width: 100%;
+            margin-block: 2rem 1rem;
+        }
+    
+    & h1 {
+        color: var(--text-color-primary);
+        font: var(--head-one);
+        margin-bottom: .5rem;
+    }
+    
+    & p {
+        margin-bottom: 2rem;
+        width: 18.5rem;
+    }
+    }
+}
+}
+
+@media (width >= 80em) {
+header {
+    padding-inline: 2rem;
+& > div {
+    display: flex;
+    justify-content: space-between;
+& .profile {
+    display: flex;
+    align-items: center;
+        gap: 2rem;
+& img {
+   margin-block: 0;
+    height: 11rem;
+}
+ & h1 {
+    margin-bottom: .5rem;
+ }
+   
+    & p {
+        width: 24rem;
+        margin-bottom: .25rem;
+        word-break: normal;
+    }
+
+
+}
+
+& ul {
+width: 17.5rem;
+height: 6.5rem;
+}
+
+}
+
+}
+
+}

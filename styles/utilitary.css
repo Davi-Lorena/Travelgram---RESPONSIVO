@@ -2,6 +2,18 @@
     display: flex;
 }
 
+.grid {
+    display: grid;
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+
+.gap-\.5 {
+    gap: .5rem;
+}
+
 .desktop-only {
     display: none;
 }
@@ -10,12 +22,12 @@
     align-items: center;
 }
 
-.px-nav {
+.px-head {
     margin-inline: 1rem;
 }
 
-.py-nav {
-    margin-block: 1rem;
+.py-head {
+    padding-block: 1rem;
 }
 
 .gap-1 {
@@ -27,12 +39,12 @@
         display: initial;
     }
 
-    .px-nav {
+    .px-head {
         margin-inline: 2rem;
     }
 
-    .py-nav {
-        margin-block: 1.25rem;
+    .py-head {
+        padding-block: 1.25rem;
     }
 
     .gap-1 {

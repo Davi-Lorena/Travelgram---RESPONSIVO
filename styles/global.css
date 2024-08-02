@@ -6,27 +6,39 @@
 
 :root {
     --font-family: 'Poppins', sans-serif;
-    --head-one: Bold 2rem/125% var(--font-family); 
+    --head-one: Bold 1.5rem/125% var(--font-family); 
     --parag-md: 400 .875rem/170% var(--font-family);
     --parag-sm: 400 .75rem/170% var(--font-family);
-    -text: 400 1rem/150% var(--font-family);
+    --text: 400 1rem/150% var(--font-family);
 
     --brand-color: #EF5F4C;
     --background-color: #FFFFFF;
     --surface-color: #F5F5F5;
-    --skelenton-color: #D9D9D9;
+    --skeleton-color: #D9D9D9;
     --shape-transparency: #ffffff90;
     --text-color-primary: #313131;
 --text-color-secondary: #6C6C6C;
 
 }
 
+body {
+    font-family: var(--font-family);
+    color: var(--text-color-secondary);
+    font: var(--parag-md);
+}
+
 a {
     text-decoration: none;
     color: inherit;
+    font: var(--text);
 }
 
-body {
-    font: var(--font-family);
-    color: var(--text-color-secondary);
+ul[role="list"] {
+    list-style: none;
+}
+
+@media (width >= 80em) {
+    :root {
+    --head-one: Bold 2rem/125% var(--font-family);
+    }
 }
