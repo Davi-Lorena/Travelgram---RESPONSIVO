@@ -10,7 +10,7 @@ background-color: var(--surface-color);
             object-fit: cover;
             height: 7.5rem;
             max-width: 100%;
-            margin-block: 2rem 1rem;
+            margin-bottom: 1rem;
         }
     
     & h1 {

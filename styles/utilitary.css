@@ -23,7 +23,7 @@
 }
 
 .px-head {
-    margin-inline: 1rem;
+    padding-inline: 1rem;
 }
 
 .py-head {
@@ -40,7 +40,7 @@
     }
 
     .px-head {
-        margin-inline: 2rem;
+        padding-inline: 2rem;
     }
 
     .py-head {
