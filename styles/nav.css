@@ -1,12 +1,18 @@
 nav {
 justify-content: space-between;
+opacity: 0.7;
+& div {
+    width: 5rem;
+    justify-content: end;
+background: url(../assets/MagnifyingGlass.svg) no-repeat left;
+}
 & #lt-prf {
 width: 2.5rem;
 height: 2.5rem;
 aspect-ratio: 1;
 }
 
-& img, svg {
+& img {
     cursor: pointer;
 }
 
@@ -15,9 +21,23 @@ aspect-ratio: 1;
     text-decoration: underline;
 }
 
-    & svg path:hover {
-        stroke: var(--brand-color);
+
     }
-    
+
+    @media (width >= 80em) {
+      nav div { 
+width: 20.3125rem;
+background-position-x: left;
+background-position-y: center;
+
+&:hover {
+    background-image: url(../assets/MagnifyingGlass-hover.svg);
+}
 
 }
+nav {
+        opacity: 1;
+      }
+    }
+
+

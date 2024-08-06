@@ -6,10 +6,6 @@
     display: grid;
 }
 
-.gap-1 {
-    gap: 1rem;
-}
-
 .gap-\.5 {
     gap: .5rem;
 }
@@ -22,16 +18,32 @@
     align-items: center;
 }
 
-.px-head {
-    padding-inline: 1rem;
+.gap-1 {
+    gap: 1rem;
 }
 
-.py-head {
+.container {
+    --max-width: 375px;
+    margin-inline: auto;
+    width: min(var(--max-width), 100% - var(--px-1) * 2);
+}
+
+.contain-header {
+    --max-width: 375px;
+    margin-inline: auto;
+    width: min(var(--max-width), 100% - var(--px-2) * 2);
+}
+
+.nav-py {
     padding-block: 1rem;
 }
 
-.gap-1 {
-    gap: 1rem;
+.header-py {
+    padding-block: 2rem;
+}
+
+.main-footer-py {
+    padding-block: 1rem;
 }
 
 @media (width >= 80em) {
@@ -39,16 +51,20 @@
         display: initial;
     }
 
-    .px-head {
-        padding-inline: 2rem;
-    }
-
-    .py-head {
-        padding-block: 1.25rem;
-    }
-
     .gap-1 {
         gap: 1.5rem;
+    }
+
+    .container, .contain-header {
+        --max-width: 80rem;
+    }
+
+    .nav-py {
+padding-block: 1.25rem;
+    }
+
+    .main-footer-py {
+        padding-block: 1.5rem;
     }
 
 }

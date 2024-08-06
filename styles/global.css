@@ -19,12 +19,19 @@
     --text-color-primary: #313131;
 --text-color-secondary: #6C6C6C;
 
+
+--px-1: 1rem;
+--px-2: 2rem;
 }
 
 body {
     font-family: var(--font-family);
     color: var(--text-color-secondary);
     font: var(--parag-md);
+}
+
+#navhe {
+    background-color: var(--surface-color);
 }
 
 
@@ -41,5 +48,7 @@ ul[role="list"] {
 @media (width >= 80em) {
     :root {
     --head-one: Bold 2rem/125% var(--font-family);
+
+    --px-1: 2rem;
     }
 }

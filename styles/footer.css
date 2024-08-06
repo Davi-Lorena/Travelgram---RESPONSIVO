@@ -1,18 +1,19 @@
-footer {
+footer .container {
     justify-content: center;
     text-align: center;
     background-color: var(--background-color);
-    display: grid;
     font: 400 .875rem/150% var(--font-family);
 
 }
 
 @media (width >= 80em) {
-    footer {
+    footer .container {
        display: flex;
        justify-content: space-between;
-       margin-inline: 0;
-       padding: 1.5rem 2rem;
+      
+       & div {
+        gap: 1rem;
+       }
 
 }
 }
