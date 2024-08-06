@@ -1,6 +1,5 @@
 main .container {
 background-color: var(--background-color);
-justify-content: center;
 
 & img {
     object-fit: cover;
