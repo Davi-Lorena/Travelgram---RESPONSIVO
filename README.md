@@ -1,5 +1,7 @@
 # Travelgram ✈️
 
+![Captura de tela 2024-12-04 192912](https://github.com/user-attachments/assets/b84ce52f-54a5-4de0-9c45-65753b2aaa63)
+
 Perfil de uma rede social fictícia de viagens.
 
 ## Sobre o desenvolvimento 🔧
